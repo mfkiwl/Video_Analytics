@@ -13,18 +13,22 @@ https://user-images.githubusercontent.com/79415699/122861697-dc4c4480-d2ed-11eb-
 ## How it works:
 The code defines a function that uses Computer Vision trackers in Python's OpenCV library to extract coordinates of the centroid of a user-defined bounding box. 
 
-In each frame i, the bounding box is defined as follows:
+In each frame i, the bounding box is defined as:
+
 (𝑥𝑏𝑖; 𝑦𝑏𝑖; 𝑑𝑥𝑏𝑖; 𝑑𝑦𝑏𝑖)
 
 The box’s centroid coordinates in each frame are:
+
 (𝑥𝑐𝑖; 𝑦𝑐𝑖) = (𝑥𝑏𝑖 + 𝑑𝑥𝑏𝑖/2; 𝑦𝑏𝑖 +𝑑𝑦𝑏𝑖/2)
 
-The code produces a movemeent trace by assigning coordinates in each frame to a list across n frames.
+The code produces a movemeent trace by assigning coordinates in each frame to a list across n frames:
+
 [𝑋]𝑇𝑎𝑟𝑔𝑒𝑡 = [𝑥𝑐𝑖, 𝑥𝑐𝑖+1, … , 𝑥𝑐𝑛]
 
 [𝑌]𝑇𝑎𝑟𝑔𝑒𝑡 = [𝑦𝑐𝑖, 𝑦𝑐𝑖+1, … , 𝑦𝑐𝑛
 
 # User-Guide
+(video taken for demo purposes)
 
 ## 1. Start by selecting a target and running the video 
 ![image](https://user-images.githubusercontent.com/79415699/122855608-78bd1980-d2e3-11eb-9e72-ccb9ff3d87a9.png)
