@@ -4,8 +4,8 @@
 
 This project introduces a vision-based sensor that was implemented on multiple long-span bridges in NYC using live traffic camera 
 feed. Methods for noise filters, camera motion compensation and target detection are introduced to 
-optimize it for practical use and to evaluate a bridge's global and localized behavior in real-time. 
-To see an example of how the code was applied when the Verrazano-Narrows was shaking earlier this year to estimate how much it was moving just from a youtube video, check the paper in the repo!
+to evaluate a bridge's global and localized behavior in real-time. 
+To see an example of how the code was applied when the Verrazano-Narrows was shaking earlier this year, and how movement was calculated just from a youtube video, check the paper in the repo!
 
 https://user-images.githubusercontent.com/79415699/122861697-dc4c4480-d2ed-11eb-8b71-d122e1749453.mp4
 
